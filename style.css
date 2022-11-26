@@ -1,0 +1,32 @@
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    background-color: hsl(216, 50%, 16%);
+    margin: 10%;
+    height: 85%;
+    width: 20%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.equilibrium{
+    height: 50%;
+    width: 90%;
+    border-radius: 7px;
+    margin-top: 13px;
+}
+h3 ,p{
+    color:hsl(0, 0%, 100%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
