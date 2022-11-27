@@ -1,5 +1,6 @@
 html {
     background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
 }
 body {
     height: 100vh;
@@ -10,9 +11,9 @@ body {
 }
 .container{
     background-color: hsl(216, 50%, 16%);
-    margin: 10%;
+    margin: 5%;
     height: 85%;
-    width: 20%;
+    width: 23%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -24,9 +25,67 @@ body {
     width: 90%;
     border-radius: 7px;
     margin-top: 13px;
+   
 }
-h3 ,p{
-    color:hsl(0, 0%, 100%);
+h3 {
+ color:hsl(0,0%,100%);
+ margin: 0;
+ text-align: left;
+ padding-right: 40%;
+}
+.call-to-action{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+.ethereum{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    flex-direction: row-reverse;
+    color: hsl(178, 100%, 50%);
+    width: 40%;
+}
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+    color: hsl(215, 51%, 70%);
+}
+
+p{
+    color:  hsl(215, 51%, 70%);
+    text-align: left;
+    margin: 0% 7% 0% 7%;
+    font-size: 14px;
+
+}
+h6{
+    color: hsl(215, 32%, 27%);
+    margin: 0;
+    padding: 0;
+}
+.avatar{
+    height: 60%;
+    width: auto;
+}
+footer{
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+    margin-bottom: 8%;
+    color: hsl(215, 51%, 70%);
+    font-size: medium;
+}
+b{
+    color: hsl(0,0%,100%);
+}
+.text{
+    word-spacing: 4px;
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
